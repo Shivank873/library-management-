@@ -1,0 +1,6 @@
+backend/node_modules/
+backend/.env
+front-end/node_modules/
+front-end/dist/
+*.log
+hs_err_pid*

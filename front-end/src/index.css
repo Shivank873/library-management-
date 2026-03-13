@@ -1,0 +1,30 @@
+:root {
+  font-family: Georgia, 'Times New Roman', serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #1e1b18;
+  background-color: #f5efe7;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.form-control:focus,
+.form-select:focus,
+.btn:focus {
+  box-shadow: 0 0 0 0.25rem rgba(138, 90, 33, 0.16);
+  border-color: rgba(138, 90, 33, 0.35);
+}

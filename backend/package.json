@@ -1,0 +1,27 @@
+{
+  "name": "api-creation",
+  "version": "1.0.0",
+  "description": "API creation for book management",
+  "keywords": [
+    "api",
+    "books",
+    "library"
+  ],
+  "license": "ISC",
+  "author": "Rajeev Singh",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js",
+    "check": "node --check server.js",
+    "test": "echo \"No tests configured\""
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.4",
+    "promise": "^8.3.0"
+  }
+}
